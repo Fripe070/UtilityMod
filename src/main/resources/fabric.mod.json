@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "utilitymod",
+  "version": "${version}",
+  "name": "Utilitymod",
+  "description": "",
+  "authors": [
+    "Fripe"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/utilitymod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.fripe070.utilitymod.client.UtilitymodClient"
+    ],
+    "main": [
+      "io.github.fripe070.utilitymod.Utilitymod"
+    ]
+  },
+  "mixins": [
+    "utilitymod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
