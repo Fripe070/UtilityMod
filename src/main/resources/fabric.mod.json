@@ -16,7 +16,6 @@
       "io.github.fripe070.utilitymod.client.UtilitymodClient"
     ],
     "main": [
-      "io.github.fripe070.utilitymod.Utilitymod"
     ]
   },
   "mixins": [
